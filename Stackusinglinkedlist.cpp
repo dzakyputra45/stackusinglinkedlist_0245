@@ -40,4 +40,6 @@ public:
         cout << "Poppes value: " << top->data << endl;
         top = top->next;
     }
+
+    void peek() { 
 };
