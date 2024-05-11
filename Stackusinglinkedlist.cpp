@@ -82,6 +82,14 @@ int main() {
             cin >> value;
             stack.push(value);  //pusuh the entered value onot the stack
             break;
+        case 2:
+            if (!stack.isEmpty()) {
+                stack.pop();     //Pop the top element from the stack
+            }
+            else {
+                cout << "Stack Is Empty. Cannot pop." << endl;
+            }
+            break;
         }
     }
 }
